@@ -1,0 +1,139 @@
+ * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'poppins';
+}
+
+header {
+    height: 20vh;
+    width: 20vw;
+    background-color: rgb(250, 253, 255);
+    background-size: cover;
+}
+
+.navbar {
+    position: absolute;
+    padding: 50px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 50px 10%;
+    padding-right: 50px 10%;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar .logo.png {
+    width: 114px;
+    height: 34px;
+}
+
+.nav-links ul {
+    display: flex;
+    
+}
+
+.navbar .nav-links ul li {
+    margin: 0 25px;
+
+}
+.active {
+    border: solid 5px noir;
+}
+
+.navbar .nav-links a.active{
+    background: white;
+}
+ul li a{
+    border-radius: 1px;
+}
+.first {
+    padding: 50px 10%;
+    margin-right: 20px 10%;
+    
+}
+.first .Rec1 {
+   margin-top: 2px;
+}
+.p1 {
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-style: normal;
+    color: #DF6951;
+    font-family: Poppins;
+    width: 410px;
+}
+
+.h1 {
+    padding-bottom: 20px;
+    font-size: 78px;
+    font-style: bold;
+    font-family: Volkhov;
+    color: #181E4B;
+    line-height: 0.8em;
+    width: 500px;
+    
+
+}
+.p2 {
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-style: normal;
+    color: #5E6282;
+    font-family: Poppins;
+    width: 280px;
+}
+.second {
+    margin-top: -50px;
+    padding-left: 135px ;
+}
+.p3 {
+    margin-top: -63px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-left: 35px;
+    
+    
+}
+.p4 {
+    margin-top: -12px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #686D77;
+    padding-left: 225px;
+}
+.third {
+    padding-left: 800px;
+    margin-top: -420px;   
+}
+
+.decorA {
+    margin-top: -160px;
+    padding-left: 930px;
+    
+}
+.traveller {
+    padding-left: 780px;
+    margin-top: -530px;  
+    
+}
+.planeA {
+    position: absolute;
+    padding-left: 460px;
+    margin-top: 50px; 
+}
+.planeB {
+    position: absolute;
+    padding-left: 80px;
+    margin-top: -10px; 
+}
